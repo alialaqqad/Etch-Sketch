@@ -1,5 +1,55 @@
+body {
+    background-color: grey;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .board {
     width: 500px;
     height: 500px;
     display: grid;
+    border: 2px solid black;
+}
+
+.buttons {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+button {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.setSize {
+    display: flex;
+}
+
+input {
+    text-align: center;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.random {
+    background: linear-gradient(0.25turn, #f65cfc, #ebf8e1, #583cf6);
 }
